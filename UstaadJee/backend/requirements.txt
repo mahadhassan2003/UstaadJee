@@ -7,3 +7,4 @@ langchain-groq
 python-dotenv
 pydantic
 langchain-google-genai
+python-multipart
