@@ -1,0 +1,17 @@
+export const Colors = {
+  primary: '#1B8C6E',
+  primaryLight: '#E8F5F1',
+  dark: '#1A1A2E',
+  mediumText: '#6B7280',
+  lightBorder: '#E5E7EB',
+  cardBg: '#FFFFFF',
+  appBg: '#F8FAFB',
+  accentOrange: '#F97316',
+  success: '#10B981',
+  white: '#FFFFFF',
+  inputBg: '#F3F4F6',
+  timestamp: '#9CA3AF',
+  recordingRed: '#EF4444',
+  waveformGreen: '#1B8C6E',
+  cancelGray: '#9CA3AF',
+};

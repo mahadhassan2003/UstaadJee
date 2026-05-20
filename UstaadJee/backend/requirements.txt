@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+firebase-admin
+langgraph
+langchain-groq
+python-dotenv
+pydantic
+langchain-google-genai

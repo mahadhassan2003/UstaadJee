@@ -1,0 +1,18 @@
+# Python/Backend
+venv/
+__pycache__/
+*.pyc
+.env
+*.db
+*.db-shm
+*.db-wal
+
+# Mobile (Just in case)
+node_modules/
+.expo/
+dist/
+npm-debug.*
+
+# OS
+.DS_Store
+Thumbs.db
