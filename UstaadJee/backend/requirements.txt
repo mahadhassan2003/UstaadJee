@@ -2,6 +2,7 @@ fastapi
 uvicorn
 firebase-admin
 langgraph
+langgraph-checkpoint-sqlite
 langchain-groq
 python-dotenv
 pydantic
