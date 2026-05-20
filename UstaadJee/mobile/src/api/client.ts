@@ -1,16 +1,9 @@
 import { Platform } from 'react-native';
 import Constants from 'expo-constants';
 
-const getHost = () => {
-  if (Platform.OS === 'web') return '127.0.0.1';
-  if (Constants.expoConfig?.hostUri) {
-    return Constants.expoConfig.hostUri.split(':')[0];
-  }
-  // Fallback to the IP address from your terminal logs for physical device
-  return '192.168.100.235'; 
-};
-
-export const BASE_URL = `http://${getHost()}:8000`;
+// Production backend URL (Cloud Run)
+// No need for dynamic host detection when using a deployed endpoint.
+export const BASE_URL = "https://ustaadjee-api-551148571510.us-central1.run.app";
 export const API_URL = `${BASE_URL}/api/chat`;
 
 export const sendMessageToAgent = async (message: string, sessionId = 'demo-session') => {
