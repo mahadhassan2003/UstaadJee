@@ -10,5 +10,5 @@ COPY . .
 # Expose the port that Uvicorn will listen on
 EXPOSE 8000
 
-# Command to run the application
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+# Command to run the application using $PORT environment variable (defaults to 8000 if not set)
+CMD ["sh", "-c", "uvicorn main:app --host 0.0.0.0 --port ${PORT:-8000}"]
